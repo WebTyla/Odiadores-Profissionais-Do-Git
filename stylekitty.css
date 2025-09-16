@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/5f/68/38/5f68389aabdd02b4ff408692f0974a76.gif),url(https://i.pinimg.com/736x/07/91/51/07915148346ef42b3e709e7d779fcd89.jpg);
+    background-repeat: repeat-x, repeat;
+    background-size: 150px 125px, 100px 100px;
+    background-position-x: center, center;
+    background-position-y: 15px, center;
+}
+
+.kitty {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+}
